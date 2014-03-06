@@ -1,0 +1,18 @@
+{
+   "platform": "android",
+   "manifest": "CrazyRepo-Test/AndroidManifest.xml",
+   "directory": "CrazyRepo-Test",
+   "email": "",
+   "targets": [
+   {
+     "name": "JUnit Test",
+     "tests": [
+     {
+       "type": "unit",
+       "directory": "CrazyRepo-Test",
+       "package": "com.turkey.crazyrepo.tests"
+     }
+     ]
+   }
+   ]
+}

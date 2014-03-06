@@ -1,0 +1,5 @@
+<ivy-module version="2.0">
+  <info organisation="crazy-repo" module="com.turkey.crazyrepo" revision="0.1" />
+  <dependencies>
+  </dependencies>
+</ivy-module>

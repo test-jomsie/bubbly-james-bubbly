@@ -1,0 +1,6 @@
+<ivy-module version="2.0">
+  <info organisation="crazy-repo" module="com.turkey.crazyrepo" revision="0.1" />
+  <dependencies>
+    <dependency org="com.zutubi.android" name="junitreport" rev="1.5.8" />
+  </dependencies>
+</ivy-module>

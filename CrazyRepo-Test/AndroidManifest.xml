@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.turkey.crazyrepo.tests"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+    
+    <instrumentation
+        android:name="com.zutubi.android.junitreport.JUnitReportTestRunner"
+        android:targetPackage="com.turkey.crazyrepo.tests" />
+
+    <application android:allowBackup="false">
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>
